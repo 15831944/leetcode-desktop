@@ -4,6 +4,11 @@
 *.o
 *.obj
 
+**/debug/
+*.vcxproj
+*.filters
+*.user
+
 # Compiled Dynamic libraries
 *.so
 *.dylib
