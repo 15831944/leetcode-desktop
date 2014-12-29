@@ -19,43 +19,29 @@ public:
 
 		string res="";
 		int curmin=INT_MAX;
-        int start=0;
+        int start=-1;
 		int end=0;
 		int count=0;//计数s中的在T中出现个数
-
-		//找到第一个在target里出现的字母
-		while(start<S.length() && !isinT[S[start]] )
-			start++;
-		//start为第一个出现的，找到一个字母
-		end=start;
-
+		
 		while(start<end)
 		{
+			//end后移，找到刚好能够包含T的位置
 			while(end<S.length() && count<T.length())
 			{
-				if(isinT[S[end]] && requir[S[end]]>0)
+				if(requir[T[end]]>0)
 				{
-					requir[S[end]]--;
 					count++;
+					requir[T[end]]--;
 				}
-				else if(isinT[S[end]] && requir[S[end]]<=0)
-					requir[S[end]]--;
 				end++;
 			}
-			if(count<T.length())//end到头了，而count没到数
-				break;
-			if(end-start<curmin)
-			{
-				curmin=end-start;
-				res=S.substr(start,end-start);
-			}
-			//start往前走的话，它当前对应的需求++
-			requir[S[start]]++;
-			if(requir[S[start]]>0)//如果需求为正，则count少一个
-				count--;
+
+			//start前移，压缩
 			start++;
-			while(!isinT[S[start]])
-				start++;
+			while(start<end)
+			{
+
+			}
 		}
 		return res;
     }
