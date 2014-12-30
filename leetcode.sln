@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maxpoints", "maxpoints\maxpoints.vcxproj", "{7F892816-5999-43CD-824E-FB322F5F4B4E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Best Time to Buy and Sell Stock", "Best Time to Buy and Sell Stock\Best Time to Buy and Sell Stock.vcxproj", "{378A263C-4FFA-4967-B70B-5270236C211E}"
@@ -216,6 +218,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Majority Element", "Majority Element\Majority Element.vcxproj", "{A34CE052-AD01-49BA-8BCB-5067D421862B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Word Ladder", "Word Ladder\Word Ladder.vcxproj", "{97624885-35CA-4B9B-9A85-980B1622D215}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Factorial Trailing Zeroes", "Factorial Trailing Zeroes\Factorial Trailing Zeroes.vcxproj", "{25EC1973-FBBE-4980-A435-2ACBF53BF25A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -874,6 +878,12 @@ Global
 		{97624885-35CA-4B9B-9A85-980B1622D215}.Release|Win32.ActiveCfg = Release|Win32
 		{97624885-35CA-4B9B-9A85-980B1622D215}.Release|Win32.Build.0 = Release|Win32
 		{97624885-35CA-4B9B-9A85-980B1622D215}.Release|x64.ActiveCfg = Release|Win32
+		{25EC1973-FBBE-4980-A435-2ACBF53BF25A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{25EC1973-FBBE-4980-A435-2ACBF53BF25A}.Debug|Win32.Build.0 = Debug|Win32
+		{25EC1973-FBBE-4980-A435-2ACBF53BF25A}.Debug|x64.ActiveCfg = Debug|Win32
+		{25EC1973-FBBE-4980-A435-2ACBF53BF25A}.Release|Win32.ActiveCfg = Release|Win32
+		{25EC1973-FBBE-4980-A435-2ACBF53BF25A}.Release|Win32.Build.0 = Release|Win32
+		{25EC1973-FBBE-4980-A435-2ACBF53BF25A}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
